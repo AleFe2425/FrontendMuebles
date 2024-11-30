@@ -11,7 +11,7 @@
     let fechaPedido = new Date().toISOString().split("T")[0]; // Fecha actual
     let errorMessage = '';
 
-    const apiUrl = 'http://localhost:8080';
+    const apiUrl = 'https://backendmuebles-production.up.railway.app';
 
     onMount(() => {
         const storedCliente = localStorage.getItem('cliente');

@@ -3,7 +3,7 @@
     import { navigate } from 'svelte-routing';
     import axios from 'axios';
 
-    const apiUrl = 'http://localhost:8080';
+    const apiUrl = 'https://backendmuebles-production.up.railway.app';
 
     let empleados = [];
     let pedidosPendientes = [];

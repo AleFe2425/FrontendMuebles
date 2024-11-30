@@ -7,7 +7,7 @@
     let cliente = null;
     let pedidos = [];
     let ultimoPedido = null;
-    const apiUrl = 'http://localhost:8080';
+    const apiUrl = 'https://backendmuebles-production.up.railway.app';
 
     // Función para cargar los pedidos del cliente
     async function fetchPedidosCliente() {

@@ -33,7 +33,7 @@
     let selectedEmpleado = null;
     let isEditingEmpleado = false;
 
-    const apiUrl = 'http://localhost:8080'; // URL base del backend desplegado
+    const apiUrl = 'https://backendmuebles-production.up.railway.app'; // URL base del backend desplegado
 
     function setActiveSection(section) {
         activeSection = section;
